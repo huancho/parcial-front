@@ -1,7 +1,11 @@
+import Form from './components/Form';
+
 function App() {
   return (
     <>
-      <h2 className="text-xl">Hola mundo</h2>
+      <div className="w-full min-h-screen flex flex-col items-center justify-center bg-[#FAFAFA]">
+        <Form />
+      </div>
     </>
   );
 }
